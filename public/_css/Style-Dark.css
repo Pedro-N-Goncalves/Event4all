@@ -1,0 +1,621 @@
+/* Menu principal */ 
+.nome-site {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align: left;
+	color: rgb(255,255,255); 
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+h1 {
+    margin-top: -8px;
+}
+
+h1:hover {
+    color: #aaa;
+}
+
+.navbar {
+    border: none;
+    background-color: #111;
+    margin: 0;
+}
+
+.navbar-item {
+    padding: 11px 15px !important;
+}
+
+.navbar .collapse .nav {
+    float: left;
+}
+
+.navbar .collapse .nav li .navbar-item {
+    font-size:1.2em;
+	color: #fff;
+}
+
+.navbar .collapse .nav li a:hover, #alterartema:hover, #dicas:hover {
+	color: #fff;
+    background-color: #555;
+    text-decoration: none;
+}
+
+.navbar .navbar-header .navbar-toggle span {
+    background-color: #fff;
+}
+
+.navbar-right {
+    margin-right: 0.1rem;
+}
+
+.navbar-right li .navbar-item {
+    padding: 1.5rem 2rem;
+}
+
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:any-link {
+    color: #fff;
+    background-color: #555;
+}
+
+.menuacess {
+    display: none;
+    width: 236px;
+    height: auto;
+    background: #111;
+    border: 1px solid #555;
+    padding: 0px;
+}
+
+.categoria {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    clear: both;
+}
+
+a.dropdown-item {
+    float: left;
+    color: #fff;
+    background: #333;
+    border: 1px solid #111;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 117px;
+    padding: 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#alterartema, #dicas {
+    background: #333;
+    border: 1px solid #111;
+    width: 234px;
+    padding: 0.8rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+    
+.menulogin {
+    padding: 1em;
+    padding-bottom: 0.5rem;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.menuconta {
+    width: 220px;
+    padding: 0px;
+    color: #fff;
+    background: #111;
+    border: 1px solid #555;
+} 
+
+.menuconta>a.dropdown-item {
+    width: 100%;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: #fff;
+    background: #333;
+    border: 1px solid #111;
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuconta .dropdown-item:hover {
+    background: rgb(238,239,241);
+    color: #000;
+}
+
+.menufiltro {
+    padding: 0px;
+    width: 162px;
+}
+
+.menufiltro>li {
+    width: 162px;
+}
+
+.menufiltro>li>a {
+    padding: 7px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-form, navbar-collapse collapse in {
+    border: none;
+}
+
+.input-group-btn {
+    width: 10px !important;
+}
+
+.input-group {
+    width: 500px;
+}
+
+.icon-bar-black {
+    background: #000 !important;
+}
+
+.glyphicon-search{
+    height: 2rem;
+    top: 4px;
+}
+
+.cadastro, .cancelar {
+    margin: 0rem 0.8rem;
+    color: #000;
+}
+
+#labellogin { 
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.tooltip.bottom > .tooltip-arrow, .tooltip.top > .tooltip-arrow  {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+
+.tooltip > .tooltip-inner {
+    border: 1px solid #fff;
+    width: 140px;
+}
+
+/* Media Query */ 
+@media (max-width: 767px) {
+    form#busca-eventos {
+        margin: 0px !important;
+        box-shadow: none !important;
+        padding: 10px !important;
+    }
+
+    ul.nav.navbar-nav {
+        margin: 0px !important;
+    }
+
+    body {
+        padding-top: 1rem !important;
+    }
+
+    h1 {
+        margin-top: -2px !important;
+    }
+
+    button.navbar-toggle:hover {
+        background-color: rgb(238,239,241) !important;
+    }
+
+    .navbar .collapse .nav {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-item, .dropdown-item {
+        padding: 1.2rem !important;
+    }
+
+    .jumbotron {
+        padding-top: 3em;
+    }
+
+    .navbar-collapse.in {
+        overflow: inherit !important;
+        max-height: none !important; 
+        height: auto !important;
+        border: none !important;
+        padding: 0px !important;
+    }
+
+    .collapse.in{
+        display:block !important;
+    }
+    
+    .navbar .collapse {
+        padding: 3px !important;
+    }
+    
+    .jumbotron {
+        padding-top: 3em;
+    }
+    
+    .col-sm-12 {
+        clear: both;
+    }
+
+    .menuacess, .menuconta {
+        width: 100%;
+        overflow: hidden !important;
+        padding: 5px;
+        border: 1px solid #555 !important;
+    }
+
+    .menulogin{
+        width: 100%;
+    }
+
+    a.dropdown-item {
+        width: 50%;
+        padding: 9px !important;
+    }
+
+    #aumentarfonte, #diminuirfonte{
+        padding: 8px !important;
+    }
+
+    #alterartema, #dicas {
+        width: 100%;
+        padding: 1rem;
+    }
+        
+    .input-group {
+        width: 100% !important;
+    }
+    
+    .form-row .col-md-6 {
+        padding: 0px !important;
+        margin-bottom: 15px;
+    }
+    
+    .cadastrar, .contato {
+        width: 97%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .form-row .left {
+        padding-left: 0px;
+        padding-right: 1rem;
+    }
+
+    .form-row .right {
+        padding-left: 1rem;
+        padding-right: 0px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .cadastrar, .contato {
+        width: 70% !important;
+        margin: auto;
+    }
+}
+
+body {
+    font-family: 'Verdana', 'Titillium Web', sans-serif;
+	position: relative;
+	padding-top: 3.2em;
+	background: #555; 
+	padding-bottom: 3.1em;
+}
+
+.jumbotron {
+    background: #555;
+    color: #fff;
+    padding-top: 3.2em;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#inicio, .intro {
+    margin: 0;
+    font-size: 1.4rem;
+    padding-left: 2%;
+}
+
+p.intro {
+    font-size: 1.8rem;
+}
+
+#content1, #content2 {
+	width: 97%;
+    padding: 0px;
+	background: #222;
+	border-radius: 5px;
+    margin-top: 1.4rem;
+    margin-bottom: 2.4rem;
+    clear: both;
+}
+
+#content2 {
+    margin-top: 6rem;
+}
+
+.container-fluid .row {
+    margin: 1px;
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+/* Display de eventos */
+#criaevento, #filtro-eventos {
+    float: right !important;
+    margin-top: -4px;
+}
+
+.carousel {
+    padding: 0px 3em;
+}
+
+.carousel-control.right{
+    width: 2em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: none !important;
+}
+
+.carousel-control.left {
+    width: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-image: none !important;
+}
+
+.carousel-control:hover{
+    background-color: #111;
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+    top: 49% !important;
+    color: #fff;
+    text-shadow: none;
+}
+
+.evento {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.evento:hover {
+    background-color: #111;
+}
+
+.nome-evento {
+    color: #fff;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 2%;
+}
+
+.titulo-lista {
+    font-size: 2.6rem;
+    margin: 1.2rem;
+    color: #fff;
+    font-weight: 100;
+    padding-left: 1rem;
+}
+
+.list-unstyled {
+    margin-left: 1.5rem !important;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    opacity: 0.5 !important;
+}
+
+.close:hover {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+#titulo-modal {
+    padding: 0px 2.3rem;
+}
+
+.modal-body {
+    padding: 1rem 1.2rem 1.4rem 1.2rem;
+    color: #fff;
+    background: #333;
+}
+
+.modal-body img {
+    float: left;
+    margin: 0rem 1.5rem 1.5rem .2rem;
+    width: 250px;
+    height: 250px;
+}
+
+.infoev {
+    padding: 1.5rem;
+    clear: both;
+}
+
+.modal-header, .modal-footer {
+    color: #fff;
+    background: #222;
+    border: 1px solid #000;
+}
+
+.modal-footer {
+    clear: both;
+}
+
+.inscricao {
+    margin: 0px !important;
+}
+
+.labelcodus, .labelcodev {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    float: left;
+    display: none;
+}
+
+.inscrever {
+    margin-left: 10px !important;
+}
+
+strong {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0px
+}
+
+label {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.btn-primary {
+    background: #111;
+    border: 1px solid #555;
+    padding: 7px 13px;
+}
+
+.btn-primary:hover { 
+    background-color: rgb(238,239,241);
+    color: #000;
+}
+
+.btn-secondary {
+    padding: 0.7rem;
+    color: #fff;
+    background: #444;
+    border: 1px solid #555;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(238,239,241);
+    color: #000;
+}
+
+.img-rounded {
+    margin-top: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+/* Formulário de cadastro */
+#formcadastro, #formcadastroev, #formeditarev, #formcontato, #formdados, 
+#formconfirma, #formaltnome, #formaltemail, #formaltsenha {
+    padding: 2rem;
+    margin-bottom: 0px;
+}
+
+.form-row .col-md-6 {
+    padding-bottom: 1em;
+}
+
+.form-row .left {
+    padding-left: 0px; 
+    padding-right: 1rem;
+}
+
+.form-row .right {
+    padding-left: 1rem;
+    padding-right: 0px; 
+}
+
+#labellogin, #labelcadastro, #labelcadastroev, #labeleditarev, #labelvalidacao, #labelaltnome, 
+#labelaltemail, #labelaltsenha, #labelaltdados, .labelresultfail, .labelresultsucess {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: 1px solid #700;
+    border-radius: 5px;
+    padding: 6px; 
+    color: #fff;
+    text-align: left;
+    background: #900;
+    display: none;
+}
+
+.labelresultsucess {
+    background: #060;
+    border: 1px solid #040;
+}
+
+#label-imagem {
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+#select-imagem {
+    display: none;
+}
+
+#msg-imagem {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.modal-btn {
+    width: 30%;
+    margin: none;
+}
+
+/* Contato */
+textarea {
+    resize: vertical;
+}
+
+#mensagem {
+    color: #fff;
+    background: #444;
+    border: 1px solid #555;
+}
+
+/* Rodapé */
+footer{
+	position: absolute;
+    clear: both;
+	background-color: #111;
+  	padding: 1.5rem;
+  	text-align: center;
+  	font-weight: bold;
+	color: rgb(255,255,255);
+	right: 0;
+    bottom: 0;
+    left: 0;
+	border: 2px solid rgb(26,31,39);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}

@@ -1,0 +1,581 @@
+/* Menu principal */ 
+.nome-site {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align: left;
+	color: rgb(255,255,255); 
+    margin-top: -3px;
+    margin-right: 3px;
+}
+
+h1 {
+    margin-top: -8px;
+}
+
+h1:hover {
+    color: #aaa;
+}
+
+.navbar {
+    border: none;
+    background-color: rgb(22,51,108);
+    margin: 0;
+}
+
+.navbar-item {
+    padding: 11px 15px !important;
+}
+
+.navbar .collapse .nav {
+    float: left;
+}
+
+.navbar .collapse .nav li .navbar-item {
+    font-size:1.2em;
+	color: #fff;
+}
+
+.navbar .collapse .nav li a:hover, #alterartema:hover, #dicas:hover {
+	color: #000;
+    background-color: rgb(238,239,241);
+    text-decoration: none;
+}
+
+.navbar .navbar-header .navbar-toggle span {
+    background-color: #fff;
+}
+
+.navbar-right {
+    margin-right: 0.1rem;
+}
+
+.navbar-right li .navbar-item {
+    padding: 1.5rem 2rem;
+}
+
+.navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:any-link  {
+    color: #000;
+    background-color: rgb(238,239,241);
+}
+
+.menuacess {
+    display: none;
+    width: 236px;
+    height: auto;
+    background: rgb(22,51,108);
+    padding: 0px;
+    border: 1px solid #555;
+}
+
+.categoria {
+    color: #fff !important;
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    font-size: 1.7rem;
+    clear: both;
+}
+
+a.dropdown-item {
+    float: left;
+    color: #fff;
+    background: rgb(22,60,128);
+    border: 1px solid rgb(22,51,108);
+    font-size: 2rem;
+    font-weight: 600;
+    width: 117px;
+    padding: 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#alterartema, #dicas {
+    background: rgb(22,60,128);
+    width: 234px;
+    padding: 0.8rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+    
+.menulogin {
+    padding: 1em;
+    padding-bottom: 0.5rem;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.menuconta {
+    width: 220px;
+    padding: 0px;
+    background-color: rgb(22,51,108);
+    color: #fff;
+} 
+
+.menuconta>a.dropdown-item {
+    width: 100%;
+    padding: 1rem 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: #fff;
+    background: rgb(22,60,128);
+    border: 1px solid rgb(22,51,108);
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuconta .dropdown-item:hover {
+    background: rgb(238,239,241);
+    color: #000;
+}
+
+.menufiltro {
+    padding: 0px;
+    width: 162px;
+}
+
+.menufiltro>li {
+    width: 162px;
+}
+
+.menufiltro>li>a {
+    padding: 7px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-form, navbar-collapse collapse in {
+    border: none;
+}
+
+.input-group-btn {
+    width: 10px !important;
+}
+
+.input-group {
+    width: 500px;
+}
+
+.icon-bar-black {
+    background: #000 !important;
+}
+
+.glyphicon-search{
+    height: 2rem;
+    top: 4px;
+}
+
+.cadastro, .cancelar {
+    margin: 0rem 0.8rem;
+    color: #000;
+}
+
+#labellogin { 
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: none;
+}
+
+/* Media Query */ 
+@media (max-width: 767px) {
+    form#busca-eventos {
+        margin: 0px !important;
+        box-shadow: none !important;
+    }
+
+    ul.nav.navbar-nav {
+        margin: 0px !important;
+    }
+
+    body {
+        padding-top: 1rem !important;
+    }
+
+    h1 {
+        margin-top: -2px !important;
+    }
+
+    button.navbar-toggle:hover {
+        background-color: rgb(238,239,241) !important;
+    }
+
+    .navbar .collapse .nav {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-item, .dropdown-item {
+        padding: 1.2rem !important;
+    }
+
+    .jumbotron {
+        padding-top: 3em;
+    }
+
+    .navbar-collapse.in {
+        overflow: inherit !important;
+        max-height: none !important; 
+        height: auto !important;
+        border: none !important;
+        padding: 0px !important;
+    }
+
+    .collapse.in{
+        display:block !important;
+    }
+    
+    .navbar .collapse {
+        padding: 3px !important;
+    }
+    
+    .jumbotron {
+        padding-top: 3em;
+    }
+    
+    .col-sm-12 {
+        clear: both;
+    }
+
+    .menuacess {
+        width: 100%;
+        height: 200px !important;
+    }
+
+    .menulogin{
+        width: 100%;
+    }
+
+    a.dropdown-item {
+        width: 50%;
+        padding: 9px !important;
+    }
+
+    #aumentarfonte, #diminuirfonte{
+        padding: 8px !important;
+    }
+
+    #alterartema, #dicas {
+        width: 100%;
+        padding: 1rem;
+    }
+        
+    .input-group {
+        width: 100% !important;
+    }
+    
+    .form-row .col-md-6 {
+        padding: 0px !important;
+        margin-bottom: 15px;
+    }
+    
+    .cadastrar, .contato {
+        width: 97%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+
+@media (max-width: 991px) {
+    .form-row .left {
+        padding-left: 0px; 
+        padding-right: 1rem;
+    }
+
+    .form-row .right {
+        padding-left: 1rem;
+        padding-right: 0px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .cadastrar, .contato {
+        width: 70% !important;
+        margin: auto;
+    }
+}
+
+body {
+    font-family: 'Verdana', 'Titillium Web', sans-serif;
+	position: relative;
+	padding-top: 3.2em;
+	background: rgb(238,239,241);
+	padding-bottom: 3.1em;
+}
+
+.jumbotron {
+    background: rgb(238,239,241);
+    color: #000;
+    padding-top: 3.2em;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#inicio, .intro {
+    margin: 0;
+    font-size: 1.4rem;
+    padding-left: 2%;
+}
+
+p.intro {
+    font-size: 1.8rem;
+}
+
+#content1, #content2 {
+	width: 97%;
+    padding: 0px;
+	background: rgb(255,255,255);
+	border-radius: 5px;
+    margin-top: 1.4rem;
+    margin-bottom: 2.4rem;
+}
+
+#content2 {
+    margin-top: 6rem;
+}
+
+.container-fluid .row {
+    margin: 1px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Display de eventos */
+#criaevento, #filtro-eventos {
+    float: right !important;
+    margin-top: -4px;
+}
+
+.carousel {
+    padding: 0px 3em;
+}
+
+.carousel-control.right{
+    width: 2em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: none !important;
+}
+
+.carousel-control.left {
+    width: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-image: none !important;
+}
+
+.carousel-control:hover{
+    background-color: #aaa;
+}
+
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+    top: 49% !important;
+    color: #333;
+    text-shadow: none;
+}
+
+.evento {
+    padding-bottom: 1rem;
+}
+
+.evento:hover {
+    background-color: #ddd;
+}
+
+.titulo {
+    font-size: 2.5em;
+    font-weight: 500;
+    padding: 2%;
+}
+
+.titulo-lista {
+    font-size: 2.6rem;
+    margin: 1.2rem;
+    color: #000;
+    font-weight: 100;
+    padding-left: 1rem;
+}
+
+.list-unstyled {
+    margin-left: 1.5rem !important;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #000;
+    opacity: 0.5 !important;
+}
+
+.close:hover {
+    color: #000;
+    opacity: 1 !important;
+}
+
+#titulo-modal {
+    padding: 0px 2.3rem;
+}
+
+.modal-body {
+    padding: 1rem 1.2rem 1.4rem 1.2rem;
+}
+
+.modal-body img {
+    float: left;
+    margin: 0rem 1.5rem 1.5rem .2rem;
+    width: 250px;
+    height: 250px;
+}
+
+.infoev {
+    padding: 1.5rem;
+    clear: both;
+}
+
+.modal-footer {
+    clear: both;
+}
+
+.inscricao {
+    margin: 0px !important;
+}
+
+.labelcodus, .labelcodev {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+    float: left;
+    display: none;
+}
+
+.inscrever {
+    margin-left: 10px !important;
+}
+
+strong {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+p {
+    margin: 0px
+}
+
+label {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.btn-primary {
+    background-color: rgb(22,51,108);
+    padding: 7px 13px;
+    border: 1px solid #222;
+}
+
+.btn-primary:hover { 
+    background-color: rgb(238,239,241);
+    color: #000;
+}
+
+.btn-secondary {
+    padding: 0.7rem;
+    color: #fff;
+    background: #444;
+    border: 1px solid #222;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(238,239,241);
+    color: #000;
+}
+
+.img-rounded {
+    margin-top: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+/* Formulário de cadastro */
+#formcadastro, #formcadastroev, #formeditarev, #formcontato, #formdados, 
+#formconfirma, #formaltnome, #formaltemail, #formaltsenha {
+    padding: 2rem;
+    margin-bottom: 0px;
+}
+
+.form-row .col-md-6 {
+    padding-bottom: 1em;
+}
+
+.form-row .left {
+    padding-left: 0px; 
+    padding-right: 1rem;
+}
+
+.form-row .right {
+    padding-left: 1rem;
+    padding-right: 0px; 
+}
+
+#labellogin, #labelcadastro, #labelcadastroev, #labeleditarev, #labelvalidacao, #labelaltnome, 
+#labelaltemail, #labelaltsenha, #labelaltdados, .labelresultfail, .labelresultsucess {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: 1px solid #700;
+    border-radius: 5px;
+    padding: 6px; 
+    color: #fff;
+    text-align: left;
+    background: #900;
+    display: none;
+}
+
+.labelresultsucess {
+    background: #060;
+    border: 1px solid #040;
+}
+
+#label-imagem {
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+#select-imagem {
+    display: none;
+}
+
+.modal-btn {
+    width: 30%;
+    margin: none;
+}
+
+/* Contato */
+textarea {
+    resize: vertical;
+}
+
+/* Rodapé */
+footer{
+	position: absolute;
+    clear: both;
+	background-color: #222;
+  	padding: 1.5rem;
+  	text-align: center;
+  	font-weight: bold;
+	color: rgb(255,255,255);
+	right: 0;
+    bottom: 0;
+    left: 0;
+	border: 2px solid rgb(26,31,39);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
